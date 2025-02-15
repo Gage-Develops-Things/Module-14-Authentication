@@ -28,6 +28,9 @@ const Navbar = () => {
             <button type='button'>
               <Link to='/login'>Login</Link>
             </button>
+            {/* <button type='button'>
+              <Link to='/signup'>Login</Link>
+            </button> */}
           </li>
         ) : (
           <li className='nav-item'>
